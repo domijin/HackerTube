@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HackerTube 可订阅版（非官方）</title>
+<style>body{font-family:-apple-system,'Segoe UI',sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222}
+table{border-collapse:collapse;width:100%;font-size:.92em}td,th{border-bottom:1px solid #ddd;padding:.35rem .5rem;text-align:left}
+code{background:#f2f2f2;padding:.1rem .3rem;border-radius:4px} .note{color:#555;font-size:.9em}</style></head>
+<body>
+<h1>HackerTube 可订阅版</h1>
+<p>Karpathy 的 HackerTube 本体没有账号、没有订阅功能。这是基于它<b>公开开放的数据</b>（2026-10-31 导出，ODC-By 1.0）做的订阅包装：每个 feed 条目直达 YouTube 原视频，附 HN 的推荐理由和原话引用。</p>
+<h2>订阅入口（RSS）</h2>
+<ul>
+<li><a href="feeds/weekly.xml">每周五讲</a> — 全年 52 周、每周 5 个最经久的推荐，共 260 条（最适合当订阅主 feed）</li>
+<li><a href="feeds/top.xml">精选 Top 200</a> — 全站排名最高的 200 条</li>
+</ul>
+<h3>按领域（16 个）</h3>
+<ul>
+<li><a href="feeds/area-arts-entertainment.xml">Arts, Comedy, Music &amp; Film</a> — 全区 1344 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-computing-history-culture.xml">Computing History &amp; Culture</a> — 全区 1026 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-politics-history-society.xml">Politics, History &amp; Society</a> — 全区 1018 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-software.xml">Software Engineering &amp; Languages</a> — 全区 980 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-engineering-making.xml">Engineering, Transport &amp; Making</a> — 全区 805 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-systems-security.xml">Systems, Networks &amp; Security</a> — 全区 702 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-ideas-education.xml">Ideas, Learning &amp; Language</a> — 全区 689 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-business-economics.xml">Business, Startups &amp; Economics</a> — 全区 644 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-physics-space.xml">Physics, Space &amp; Chemistry</a> — 全区 600 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-life-sciences-health.xml">Life Sciences, Mind &amp; Health</a> — 全区 598 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-hardware.xml">Hardware &amp; Electronics</a> — 全区 582 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-ai-data.xml">AI, Machine Learning &amp; Data</a> — 全区 576 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-design-graphics-media.xml">Design, Graphics &amp; Visual Media</a> — 全区 439 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-math-theory.xml">Mathematics &amp; Theoretical CS</a> — 全区 360 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-games.xml">Games &amp; Game Development</a> — 全区 355 条，feed 收录前 80 条</li>
+<li><a href="feeds/area-earth-energy-environment.xml">Earth, Energy &amp; Environment</a> — 全区 354 条，feed 收录前 80 条</li>
+</ul>
+<p class="note">用法：把这个页面部署到任何静态托管（或本地）后，将 feed 链接粘贴进 RSS 阅读器（NetNewsWire、Feedly、Inoreader 等）即可订阅。目录是 2007–2026 的一次性快照，官方未公布更新计划，所以这些 feed 的内容是固定的精选集，不会有目录外的新视频。</p>
+<h2>全站 Top 25</h2>
+<table><tr><th>#</th><th>视频</th><th>频道</th><th>被推荐跨度</th><th>主题</th></tr>
+<tr><td>1</td><td><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs">Vectors | Chapter 1, Essence of linear algebra</a></td><td>3Blue1Brown</td><td>18 个月</td><td>linear algebra</td></tr>
+<tr><td>2</td><td><a href="https://www.youtube.com/watch?v=FITJMJjASUs">Ruby Conf 12 - Y Not- Adventures in Functional Programming by Jim Weirich</a></td><td>Confreaks</td><td>18 个月</td><td>y combinator</td></tr>
+<tr><td>3</td><td><a href="https://www.youtube.com/watch?v=NGFhc8R_uO4">Indistinguishable From Magic: Manufacturing Modern Computer Chips</a></td><td>Andor Gafotas</td><td>18 个月</td><td>semiconductor manufacturing</td></tr>
+<tr><td>4</td><td><a href="https://www.youtube.com/watch?v=Unzc731iCUY">How to Speak</a></td><td>MIT OpenCourseWare</td><td>16 个月</td><td>public speaking</td></tr>
+<tr><td>5</td><td><a href="https://www.youtube.com/watch?v=VMj-3S1tku0">The spelled-out intro to neural networks and backpropagation: building micrograd</a></td><td>Andrej Karpathy</td><td>16 个月</td><td>backpropagation and neural networks</td></tr>
+<tr><td>6</td><td><a href="https://www.youtube.com/watch?v=aMcJ1Jvtef0">8 Bit &amp; '8 Bitish' Graphics-Outside the Box</a></td><td>GDC Festival of Gaming</td><td>17 个月</td><td>8-bit pixel art</td></tr>
+<tr><td>7</td><td><a href="https://www.youtube.com/watch?v=qCGofLIzX6g">How Python was Shaped by leaky Internals, Armin Ronacher, Flask framework</a></td><td>Видео с мероприятий {speach!</td><td>16 个月</td><td>python internals</td></tr>
+<tr><td>8</td><td><a href="https://www.youtube.com/watch?v=PHe0bXAIuk0">How The Economic Machine Works by Ray Dalio</a></td><td>Principles by Ray Dalio</td><td>17 个月</td><td>macroeconomics</td></tr>
+<tr><td>9</td><td><a href="https://www.youtube.com/watch?v=DovunOxlY1k">AT&amp;T Archives: Similiarities of Wave Behavior (Bonus Edition)</a></td><td>AT&amp;T Tech Channel</td><td>15 个月</td><td>wave behavior and transmission lines</td></tr>
+<tr><td>10</td><td><a href="https://www.youtube.com/watch?v=JTfhYyTuT44">In Search Of A Flat Earth</a></td><td>Folding Ideas</td><td>15 个月</td><td>conspiracy theories</td></tr>
+<tr><td>11</td><td><a href="https://www.youtube.com/watch?v=NNnIGh9g6fA">1. Introduction to Human Behavioral Biology</a></td><td>Stanford</td><td>15 个月</td><td>behavioral biology</td></tr>
+<tr><td>12</td><td><a href="https://www.youtube.com/watch?v=8bZh5LMaSmE">RailsConf 2014 - All the Little Things by Sandi Metz</a></td><td>Confreaks</td><td>15 个月</td><td>refactoring object-oriented code</td></tr>
+<tr><td>13</td><td><a href="https://www.youtube.com/watch?v=spUNpyF58BY">But what is the Fourier Transform?  A visual introduction.</a></td><td>3Blue1Brown</td><td>15 个月</td><td>fourier transform</td></tr>
+<tr><td>14</td><td><a href="https://www.youtube.com/watch?v=yYAw79386WI">Around The Corner - How Differential Steering Works (1937)</a></td><td>US Auto Industry</td><td>15 个月</td><td>automotive differentials</td></tr>
+<tr><td>15</td><td><a href="https://www.youtube.com/watch?v=JvBT4XBdoUE">The Soul of Erlang and Elixir • Sasa Juric • GOTO 2019</a></td><td>GOTO Conferences</td><td>14 个月</td><td>erlang and elixir concurrency</td></tr>
+<tr><td>16</td><td><a href="https://www.youtube.com/watch?v=dEaecUuEqfc">The Quantum Conspiracy: What Popularizers of QM Don't Want You to Know</a></td><td>Google TechTalks</td><td>15 个月</td><td>quantum mechanics interpretation</td></tr>
+<tr><td>17</td><td><a href="https://www.youtube.com/watch?v=rStL7niR7gs">Try to Rule Fairly and You'll Be Overthrown</a></td><td>CGP Grey</td><td>15 个月</td><td>political power and selectorate theory</td></tr>
+<tr><td>18</td><td><a href="https://www.youtube.com/watch?v=SxdOUGdseq4">"Simple Made Easy" - Rich Hickey (2011)</a></td><td>Strange Loop Conference</td><td>14 个月</td><td>software design complexity</td></tr>
+<tr><td>19</td><td><a href="https://www.youtube.com/watch?v=vtIzMaLkCaM">LEADERSHIP LAB: The Craft of Writing Effectively</a></td><td>UChicago Social Sciences</td><td>14 个月</td><td>effective writing</td></tr>
+<tr><td>20</td><td><a href="https://www.youtube.com/watch?v=SCAGc-rkIfo">Essential Ideas for Parents</a></td><td>Jason Salotti</td><td>13 个月</td><td>adhd</td></tr>
+<tr><td>21</td><td><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">What the heck is the event loop anyway? | Philip Roberts | JSConf EU</a></td><td>JSConf</td><td>14 个月</td><td>javascript event loop</td></tr>
+<tr><td>22</td><td><a href="https://www.youtube.com/watch?v=xAoljeRJ3lU">A Better Default Colormap for Matplotlib | SciPy 2015 | Nathaniel Smith and Stéfan van der Walt</a></td><td>Enthought</td><td>14 个月</td><td>perceptual colormaps</td></tr>
+<tr><td>23</td><td><a href="https://www.youtube.com/watch?v=aircAruvnKk">But what is a neural network? | Deep learning chapter 1</a></td><td>3Blue1Brown</td><td>14 个月</td><td>neural networks</td></tr>
+<tr><td>24</td><td><a href="https://www.youtube.com/watch?v=7J52mDjZzto">Heat Pumps: the Future of Home Heating</a></td><td>Technology Connections</td><td>15 个月</td><td>heat pumps</td></tr>
+<tr><td>25</td><td><a href="https://www.youtube.com/watch?v=XXBxV6-zamM">Micro Men - 720p (2009)</a></td><td>gimpymoo</td><td>14 个月</td><td>british home computing history</td></tr>
+</table>
+<h2>署名与授权</h2>
+<p class="note">Data: <a href="https://hackertube.org/about">HackerTube</a> (exported 2026-10-31), licensed under ODC-By 1.0; derived from the open-index/hacker-news dataset. Comments remain the work of their authors. This is an unofficial wrapper, not affiliated with HackerTube, YouTube, or Y Combinator.</p>
+</body></html>
